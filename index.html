@@ -1,0 +1,108 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tu Plataforma de Streaming</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Tu Plataforma de Streaming</h1>
+    <nav>
+      <a href="#" data-section="hero">Inicio</a>
+      <a href="#" data-section="categorias">Categorías</a>
+      <a href="#" data-section="planes">Planes</a>
+      <a href="#" data-section="contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1598515220139-990e2b86e50f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen llamativa de streaming">
+      </div>
+      <h2>El mejor entretenimiento, donde quieras, cuando quieras.</h2>
+      <p>Disfruta de miles de películas, series y programas exclusivos.</p>
+      <a href="#planes" class="cta-button">¡Comienza a disfrutar ahora!</a>
+    </section>
+
+    <section id="categorias">
+      <h2>Explora nuestras categorías</h2>
+      <div class="categoria-grid">
+        <div class="categoria-item" data-categoria="peliculas">
+          <img src="img/peliculas.svg" alt="Películas">
+          <h3>Películas</h3>
+        </div>
+        <div class="categoria-item" data-categoria="series">
+          <img src="img/series.svg" alt="Series">
+          <h3>Series</h3>
+        </div>
+        <div class="categoria-item" data-categoria="documentales">
+          <img src="img/documentales.svg" alt="Documentales">
+          <h3>Documentales</h3>
+        </div>
+        <div class="categoria-item" data-categoria="infantil">
+          <img src="img/infantil.svg" alt="Infantil">
+          <h3>Infantil</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="planes">
+      <h2>Elige tu plan ideal</h2>
+      <div class="plan-grid">
+        <div class="plan-item">
+          <h3>Básico</h3>
+          <p class="precio">$9.99/mes</p>
+          <ul>
+            <li>Calidad estándar</li>
+            <li>1 pantalla</li>
+            <li>Descargas no disponibles</li>
+          </ul>
+          <button class="suscribirse-button" data-plan="basico">Suscribirse</button>
+        </div>
+        <div class="plan-item">
+          <h3>Estándar</h3>
+          <p class="precio">$14.99/mes</p>
+          <ul>
+            <li>Alta definición (HD)</li>
+            <li>2 pantallas</li>
+            <li>Descargas disponibles</li>
+          </ul>
+          <button class="suscribirse-button" data-plan="estandar">Suscribirse</button>
+        </div>
+        <div class="plan-item">
+          <h3>Premium</h3>
+          <p class="precio">$19.99/mes</p>
+          <ul>
+            <li>Ultra alta definición (4K)</li>
+            <li>4 pantallas</li>
+            <li>Descargas disponibles</li>
+          </ul>
+          <button class="suscribirse-button" data-plan="premium">Suscribirse</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <p>¿Tienes alguna pregunta? ¡Contáctanos por WhatsApp o Telegram!</p>
+      <div class="contacto-links">
+        <a href="https://wa.me/521234567890?text=¡Hola!%20Tengo%20una%20pregunta." target="_blank" class="contacto-button whatsapp">
+          WhatsApp
+        </a>
+        <a href="https://t.me/tunombredeusuario" target="_blank" class="contacto-button telegram">
+          Telegram
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Tu Plataforma de Streaming. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
