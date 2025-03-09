@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     boton.addEventListener('click', (event) => {
       const plan = event.target.dataset.plan;
       // Número de teléfono (reemplaza con el número deseado)
-      const numeroTelefono = '521234567890'; // Código de país + número
+      const numeroTelefono = '50369383442'; // Código de país + número
       const mensaje = `¡Hola! Estoy interesado en suscribirme al plan ${plan}.`;
       const urlWhatsApp = `https://wa.me/${numeroTelefono}?text=${encodeURIComponent(mensaje)}`;
       window.open(urlWhatsApp, '_blank'); // Abre WhatsApp en una nueva pestaña
